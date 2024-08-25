@@ -12,11 +12,11 @@ One of the most important feature of this package is inbuilt RequestCriteria cla
 
 
 ## Model classes used
-
-Customer: id, first_name, last_name, email, timestamps
-Products: id, product_name, price, timestamps
-Order: id, customer_id, status, payment_method, timestamps
-OrderItems:id, order_id, product_id, quantity, timestamps
+>```
+>Customer: id, first_name, last_name, email, timestamps
+>Products: id, product_name, price, timestamps
+>Order: id, customer_id, status, payment_method, timestamps
+>OrderItems:id, order_id, product_id, quantity, timestamps
 
 ### Models relataions
 
